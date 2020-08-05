@@ -4,6 +4,7 @@ App to share public or private stories
 
 ## Live Demo
    [StoryBooks](https://desolate-springs-73884.herokuapp.com/)
+   
 ## Reach out to me
 [<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/prabhakargaddam/)
 [<img align="left" alt="Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />](<mailto:prabhakargaddam1729@gmail.com>)
@@ -23,7 +24,12 @@ App to share public or private stories
 ```javascript
 const uri = MONGO_DB_URI;
 ```
-
+Update config/keys_dev.js with your Google Client Id,Secret
+ ```javascript
+googleClientID: GOOGLE_CLIENT_ID,
+googleClientSecret: GOOGLE_SECRET
+```
+ 
 ```
 # Install dependencies
 npm install
