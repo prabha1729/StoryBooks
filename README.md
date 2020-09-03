@@ -1,5 +1,5 @@
 # StoryBooks
-App to share public or private stories
+•	Developed a web-based application using Google OAuth2.0 which allows users to create and share private, public stories and has access to post, edit, and delete their stories.
 
 
 ## Live Demo
